@@ -1,0 +1,132 @@
+body{
+    margin: 16px;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.left{
+    width: 25%;
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.right{
+    width: 25%;
+    font-size: 12px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right .link{
+    padding: 8px;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.hero .main-text{
+    width: 50%;
+    padding: 16px;
+}
+.hero .heading{
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.hero .subtext{
+    padding:16px;
+    font-size: 18px;
+}
+.hero-button{
+    margin-left:16px;
+    font-size: 16px;
+    border-radius: 4px ;
+}
+.hero-img{
+    width:300px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    margin-bottom: 60px;
+}
+.content-heading{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.content-images{
+    display: flex;
+    text-align: center;
+    gap:16px;
+}
+
+.content-images .info{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-images .info .img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.content-images .info .text{
+    font-size: 14px;
+}
+.quotes{
+    padding: 16px;
+    margin-bottom: 60px;
+}
+.quotes .main-text{
+    font-size: 30px;
+}
+.quotes .signature{
+    text-align: right;
+    padding-top: 20px;
+    font-weight: 900;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 60px;
+}
+.form .main-text .heading{
+    font-size: 24px;
+    font-weight: 700;
+}
+.form .subtext{
+    font-size: 16px;
+}
+.form .form-button{
+    font-size: 16px;
+    border-radius: 4px;
+    padding-right: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
